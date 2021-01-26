@@ -1,3 +1,16 @@
+/* Reglas
+selectores
+declaraciones
+propiedades
+valores */
+
 header {
     background-color: violet;
 }
+
+/* Selector de etiqueta header - section - article - nav */
+/* Selectro descendente - hijo de otro elemento
+body/header/div/nav/ol/li/a */
+/* Selector de clase sirve para usar y replicarlo más veces, siempre debe comenzar con un "." */
+/* ejemplo .link */
+/* Para hacer un selector de id se usa el #, por ejemplo #portafolio */
