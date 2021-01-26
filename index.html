@@ -8,11 +8,11 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
-            <figure>
+        <header class="header">
+            <figure class="logo">
                 <img src="/Assets/Logo-02.svg" width="20%" alt="Renato Cuellar">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="#portafolio">Portafolio</a>
@@ -20,51 +20,51 @@
                     <li>
                         <a href="#experiencia">Experiencia</a>
                     </li>
-                    <li>
+                    <li class="cta">
                         <a href="#trabajemosjuntos">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! Soy <strong>Renato Cuéllar</strong>,<br/> Desarrollador <strong>Frontend</strong><br/> con pasión por <strong>Javascript</strong>
             </h1>
             <img src="Assets/IMG_0104.JPG" width="50%" alt="IMG de renato cuellar">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portafolio">
             <h2>Portafolio (Proyectos destacados</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha: </strong>01/07/2019</small></p>
-                <p><small><strong>Puedes verlo es: </strong>www.renatocuellar.com</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+            <article class="project">
+                <h3 class="project__title">Platzi Video</h3>
+                <h6 class="project__course">React Native / React</h6>
+                <p class="project__date"><small><strong>Fecha: </strong>01/07/2019</small></p>
+                <p class="project__url"><small><strong>Puedes verlo en: </strong>www.renatocuellar.com</small></p>
+                <p class="project__description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
                 </p>
             </article>
         </section>
-        <section id="experiencia">
-            <h2>Más sobre mi experiencia</h2>
-            <article>
-                <figure>
-                    <img src="Assets/Ichimoku Fibonacci.png" width="500px" alt="IMG Ichimoku Fibonacci">
+        <section id="experiencia" class="experiencia">
+            <h2 class="experiencia__title">Más sobre mi experiencia</h2>
+            <article class="ichimoku">
+                <figure class="ichimoku__img">
+                    <img class="image-event" src="Assets/IchimokuFibonacci.png" width="500px" alt="IMG Ichimoku Fibonacci">
                 </figure>
-                <h3>Ichimoku Fibonacci</h3>
-                <p>El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                <h3 class="experiencia__titulo">Ichimoku Fibonacci</h3>
+                <p class="experiencia__description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
                 <a href="">Ver Proyecto</a>
-                <h3>Oficinas JM</h3>
-                <img src="/Assets/Oficinas JM.png" width="500px" alt="Oficinas JM">
-                <p>El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                <h3 class="experiencia__titulo">Oficinas JM</h3>
+                <img class="image-event" src="/Assets/Oficinas JM.png" width="500px" alt="Oficinas JM">
+                <p class="experiencia__description">El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
                 <a href="">Ver proyecto</a>
             </article>
         </section>
-        <section id="trabajemosjuntos">
-            <form action="/suscripcion/">
-                <h3>¿Creamos algo juntos?</h3>
+        <section id="trabajemosjuntos" class="trabajemosjuntos">
+            <form class="form" action="/suscripcion/">
+                <h3 class="form__title">¿Creamos algo juntos?</h3>
                 <input type="email" placeholder="Déjame tu email" id="email">
-                <button>Enviar</button>
+                <button class="button">Enviar</button>
             </form>
         </section>
-        <footer>Footer</footer>
+        <footer class="footer">Footer</footer>
     </body>
 </html>
