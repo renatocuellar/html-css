@@ -25,6 +25,10 @@ h1 {
     letter-spacing: -.2px;
 }
 
-.Project__details {
+.hero {
+    height: 300px;
+}
+
+.project__details {
     width: 500px;
 }
