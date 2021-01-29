@@ -3,6 +3,9 @@ selectores
 declaraciones
 propiedades
 valores */
+body {
+    font-family: poppins;
+}
 
 header {
     background-color: violet;
