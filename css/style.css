@@ -29,6 +29,7 @@ h1 {
     font-weight: 600;
     letter-spacing: -.2px;
     color: white;
+    margin: 100px 150px 70px 30px;
 }
 
 .hero {
@@ -47,6 +48,7 @@ h1 strong {
 .project {
     border: 1px solid gray;
     border-radius: 10px 10px 10px 10px;
+    margin-bottom: 15px;
 }
 
 .project__details {
