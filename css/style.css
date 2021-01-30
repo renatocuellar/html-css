@@ -3,6 +3,16 @@ selectores
 declaraciones
 propiedades
 valores */
+
+
+/* Selector de etiqueta header - section - article - nav */
+/* Selectro descendente - hijo de otro elemento
+body/header/div/nav/ol/li/a */
+/* Selector de clase sirve para usar y replicarlo más veces, siempre debe comenzar con un "." */
+/* ejemplo .link */
+/* Para hacer un selector de id se usa el #, por ejemplo #portafolio */
+
+
 body {
     font-family: poppins;
 }
@@ -12,12 +22,6 @@ header {
     color: white;
 }
 
-/* Selector de etiqueta header - section - article - nav */
-/* Selectro descendente - hijo de otro elemento
-body/header/div/nav/ol/li/a */
-/* Selector de clase sirve para usar y replicarlo más veces, siempre debe comenzar con un "." */
-/* ejemplo .link */
-/* Para hacer un selector de id se usa el #, por ejemplo #portafolio */
 
 h1 {
     font-size: 40px;
@@ -38,6 +42,11 @@ h1 {
 
 h1 strong {
     color: rgb(185, 67, 67);
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .project__details {
