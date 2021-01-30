@@ -15,6 +15,7 @@ body/header/div/nav/ol/li/a */
 
 body {
     font-family: poppins;
+    margin: 0;
 }
 
 header {
@@ -45,10 +46,17 @@ h1 strong {
     color: rgb(185, 67, 67);
 }
 
+.portafolio {
+    background:#fafafa;
+}
+
 .project {
+    background: white;
     border: 1px solid gray;
     border-radius: 10px 10px 10px 10px;
+    margin: 10ps;
     margin-bottom: 15px;
+    padding: 20px;
 }
 
 .project__details {
