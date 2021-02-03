@@ -26,6 +26,10 @@ body {
     align-items: center;
 }
 
+.header img {
+    vertical-align: middle;
+}
+
 .menu {
     height: inherit;
 }
@@ -54,7 +58,8 @@ h1 {
     font-weight: 600;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 150px 70px 30px;
+    margin: 0;
+    /* margin: 100px 150px 70px 30px; */
 }
 
 .hero {
@@ -64,6 +69,8 @@ h1 {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 h1 strong {
@@ -104,4 +111,20 @@ ol, ul {
 
 figure {
     margin: 0;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(42, 38, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
 }
